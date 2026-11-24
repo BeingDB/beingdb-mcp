@@ -45,7 +45,7 @@ docker compose up -d --build
 
 The pack must be compiled with a BeingDB version that supports declarations and the
 `diagnose` action (see BeingDB's
-[getting started guide](https://github.com/jptmoore/beingdb/blob/main/docs/getting-started.md));
+[getting started guide](https://github.com/beingdb/beingdb/blob/main/docs/getting-started.md));
 after updating BeingDB, recompile the pack and rebuild the stack. Put TLS in front of
 port 8090 (for example in your own web server) for public access.
 

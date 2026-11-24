@@ -1,7 +1,7 @@
 services:
   # BeingDB itself: serves the pack store compiled with BeingDB's native
   # CLI (beingdb-compile) into ./pack_store. Assumes a sibling checkout at
-  # ../beingdb (https://github.com/jptmoore/beingdb) -- point `context` at
+  # ../beingdb (https://github.com/beingdb/beingdb) -- point `context` at
   # your own checkout if it lives elsewhere. Set PACK_STORE_DIR (e.g. in a
   # .env file) if your compiled pack store lives somewhere else.
   beingdb:

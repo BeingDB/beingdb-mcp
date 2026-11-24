@@ -32,7 +32,7 @@ export const DEMO_FIXTURE_DIR = path.join(PROJECT_ROOT, "fixtures", "demo-facts"
 export const DEFAULT_LOCAL_PORT = 8080;
 
 const HOW_TO_CONFIGURE =
-  "Clone https://github.com/jptmoore/beingdb next to this repository (../beingdb), or set BEINGDB_REPO=/path/to/beingdb, or BEINGDB_BIN_DIR=/directory/containing/beingdb-serve.";
+  "Clone https://github.com/beingdb/beingdb next to this repository (../beingdb), or set BEINGDB_REPO=/path/to/beingdb, or BEINGDB_BIN_DIR=/directory/containing/beingdb-serve.";
 const BUILD_TARGETS = ["./bin/import.exe", "./bin/compile.exe", "./bin/serve.exe"];
 
 export type HarnessStage = "locate" | "build" | "compile" | "start" | "ready";

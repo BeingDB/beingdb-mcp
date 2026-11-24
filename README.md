@@ -1,7 +1,7 @@
 # beingdb-mcp
 
 `beingdb-mcp` lets MCP-capable clients such as VS Code Copilot query a
-[BeingDB](https://github.com/jptmoore/beingdb) database. The connected LLM uses its
+[BeingDB](https://github.com/beingdb/beingdb) database. The connected LLM uses its
 tools to discover the database's schema, write queries, check them and run them.
 `beingdb-mcp` contains no LLM itself; it passes requests to BeingDB and returns
 BeingDB's answers.
@@ -12,7 +12,7 @@ to other machines or users.
 
 ## Quick start
 
-You need Node.js 22+ and a [BeingDB](https://github.com/jptmoore/beingdb) checkout
+You need Node.js 22+ and a [BeingDB](https://github.com/beingdb/beingdb) checkout
 (with its OCaml tools, `opam` and `dune`) next to this repository:
 
 ```

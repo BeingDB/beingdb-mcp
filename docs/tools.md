@@ -50,7 +50,7 @@ dataset author as `%!` declarations in the BeingDB pack, for example
 `%! created_by(Work:work, Artist:person)`. They appear as `description`,
 `arguments[].role` and `arguments[].semanticType`, and are omitted, not guessed, for
 undeclared predicates. See BeingDB's
-[predicate declarations](https://github.com/jptmoore/beingdb/blob/main/docs/query-language.md#predicate-declarations-optional).
+[predicate declarations](https://github.com/beingdb/beingdb/blob/main/docs/query-language.md#predicate-declarations-optional).
 
 `environmentFingerprint` is a hash of the schema, declarations and DSL
 `languageVersion`; it changes whenever they do, so cached schema knowledge can be
@@ -65,7 +65,7 @@ a `severity`, a `message` and, where known, the `line`, `predicate`,
 example, a constant that never occurs at that argument position, a join whose
 arguments share no value, or a variable named after a different argument's declared
 role. The full list is in BeingDB's
-[diagnose documentation](https://github.com/jptmoore/beingdb/blob/main/docs/api.md#diagnose-dsl).
+[diagnose documentation](https://github.com/beingdb/beingdb/blob/main/docs/api.md#diagnose-dsl).
 
 When a constant occurs nowhere in its predicate (most often a misspelling), its
 diagnostic carries `evidence.suggestions`: up to five values of the same type that do

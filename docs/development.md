@@ -6,7 +6,7 @@ installing dependencies.
 ## Prerequisites and layout
 
 - Node.js 22+
-- A [BeingDB](https://github.com/jptmoore/beingdb) checkout and its OCaml toolchain
+- A [BeingDB](https://github.com/beingdb/beingdb) checkout and its OCaml toolchain
   (`opam`, `dune`; see BeingDB's installation guide), normally next to this repository:
 
 ```
